@@ -29,3 +29,4 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons of pancakes? What is it in terms of the number of flips?
 Add your answer to this markdown file.
 
+The asymptotic runtime of pancake sort in terms of the number of comparisons is $\Theta(n^2)$.  This is true since the main operation for comparisons is the for loop that finds the greatest element in the unsorted part of the array, which has a runtime of $\Theta(n^2)$.  The runtime for the number of flips is $\Theta(n)$ since that is the runtime for the flip function that is called in the pancakeSort function.
